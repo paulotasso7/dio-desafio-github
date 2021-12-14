@@ -12,3 +12,5 @@ const comparador = (num1, num2) => {
 
     
 }
+
+comparador(1, 11);
