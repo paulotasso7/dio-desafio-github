@@ -1,8 +1,8 @@
 
 const NavBar = () => {
     return (  
-        <nav style={{ backgroundColor: 'black', display: 'flex', justifyContent: 'space-between', padding: '8px 40px 8px 40px', alignItems: 'center'}}>
-           <div style={{ display:'flex', justifyContent:'center', alignItems: 'center'}}>
+        <nav style={{ backgroundColor: 'black', display: 'flex', justifyContent: 'space-between', padding: '8px 80px 8px 80px', alignItems: 'center'}}>
+            <div style={{ display:'flex', justifyContent:'center', alignItems: 'center'}}>
                 <img src='https://cdn.icon-icons.com/icons2/2070/PNG/512/parrot_icon_126079.png' alt='logo-bird' height='40px' width='40px'></img>
                 <a style={{color:'red',fontFamily: 'Bebas Neue', fontWeight:'bold', fontSize: '50px'}}>
                 PETFLIX

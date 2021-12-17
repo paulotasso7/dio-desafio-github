@@ -1,17 +1,18 @@
 #banner {
     padding: 0px;
     margin: 0px;
-    background-size: 100%;
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;  
     height: 540px;
     background-image: url('https://image.freepik.com/free-photo/group-portrait-adorable-puppies_53876-64778.jpg');    
-    display: flexbox;
-    align-items: center;
-   
+    min-width: fit-content;
 }
 
 #conteudo-banner {
     display: flexbox;
     align-items: center;
+    
 }
 
 h1 , p{

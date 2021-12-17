@@ -1,0 +1,10 @@
+.grid-flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.bg-color {
+    background-color: rgb(0 ,0 ,0, .85);
+}
+
