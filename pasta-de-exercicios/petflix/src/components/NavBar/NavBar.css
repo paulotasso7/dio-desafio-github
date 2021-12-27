@@ -1,0 +1,56 @@
+
+.bgc-black {
+    background-color: black;
+}
+
+.dp-flex {
+    display: flex;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.pad {
+    padding: 8px 80px 8px 80px;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ff-bebas {
+    font-family: Bebas Neue;
+}
+
+.color-red {
+    color: red;
+}
+
+.fweigth {
+    font-weight: bold;
+}
+
+.fsize {
+    font-size: 50px;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.color-grey {
+    color: grey;
+}
+
+.ff-arial {
+    font-family: arial;
+}
+
+.pad-left {
+    padding-left: 8px;
+}
+
+.al-self {
+    align-self: flex-start;
+}

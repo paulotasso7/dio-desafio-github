@@ -25,6 +25,7 @@ h1 , p{
 .buton-banner {
     display: flexbox;
     margin: 20px;
+    margin-right: 10PX;
     padding: 10px 20PX;
     width: 10%;
     border: none;

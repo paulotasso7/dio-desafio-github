@@ -10,7 +10,7 @@ const Banner = ( ) => {
                     </p>
                     <div >
                         <button className='buton-banner'>LEIA MAIS</button>
-                        <button className='buton-banner'>PAULO TASSO</button>
+                        <button className='buton-banner'>PETS</button>
                     </div>     
                 </div>
             </div>
