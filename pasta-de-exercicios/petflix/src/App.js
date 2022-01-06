@@ -1,6 +1,3 @@
-import React, {  useState } from 'react';
-
-
 import './App.css';
 
 import NavBar from './components/NavBar/NavBar';
@@ -9,20 +6,18 @@ import Grid from './components/Grid/Grid';
 import Footer from './components/Footer/Footer';
 
 
-
-
-  // const [petState, setPetState ] = useState(petImg: res[0].url)
-
-
 function App() {
+
+
   return (
     <div >
       <NavBar/>
       <Banner/>
-      <Grid />
+      <Grid/>
       <Footer/>
     </div>
   );
+
 }
 
 export default App;
