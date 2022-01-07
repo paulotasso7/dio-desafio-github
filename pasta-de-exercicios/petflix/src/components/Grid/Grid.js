@@ -19,13 +19,12 @@ const Grid = () => {
 
         return (
             <div className='grid-flex bg-color'>
-                {kittys.map((r) => {      
-                    console.log('kitty map',r)
+                {kittys.map((r) => { 
                     return (
                             <Cards 
                                 key={r.id}
                                 breedName={r.name}
-                                petImage={r?.image?.url}
+                                petImage={r.image?.url}
                                 origin={r.origin}
                             />
                     )

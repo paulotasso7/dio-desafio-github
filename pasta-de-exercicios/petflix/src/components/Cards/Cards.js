@@ -15,4 +15,6 @@ const Cards = ({ id, petImage, breedName, origin}) => {
         )
 }
 
-export default Cards;
+
+
+export default Cards;   
