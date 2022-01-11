@@ -1,5 +1,5 @@
 import './NavBar.css';
-
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (  
@@ -11,10 +11,18 @@ const NavBar = () => {
                 </a>
             </div>
             <div className='color-grey ff-arial'>
-                <a className='pad-left'>Início</a>
-                <a className='pad-left'>Caezinhos</a>
-                <a className='pad-left'>Gatinhos</a>
-                <a className='pad-left'>Variados</a>
+                <Link className='pad-left tx-dec' to="/inicio">
+                    Início
+                </Link>
+                <Link className='pad-left tx-dec' to="/caezinhos">
+                    Caezinhos
+                </Link>
+                <Link className='pad-left tx-dec' to="/gatinhos">
+                    Gatinhos
+                </Link>
+                <Link className='pad-left tx-dec' to="/variados">
+                    Variados
+                </Link>
             </div>
         </nav>
     )

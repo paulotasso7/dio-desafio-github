@@ -5,7 +5,7 @@ import './Grid.css';
 
 const Grid = () => {
 
-    const [kittys, setKitty] = useState([])
+    const [kittys, setKittys] = useState([])
     
     useEffect(() => 
         fetch('https://api.thecatapi.com/v1/breeds')
@@ -14,19 +14,19 @@ const Grid = () => {
     );
 
     const set_API = (re) => {
-        setKitty(re); 
+        setKittys(re); 
     };
 
         return (
-            <div className='grid-flex bg-color'>
-                {kittys.map((r) => { 
+            <div className='grid-flex bg-color' style={{grid:''}}>
+                {kittys.map((kitty) => { 
                     return (
-                            <Cards 
-                                key={r.id}
-                                breedName={r.name}
-                                petImage={r.image?.url}
-                                origin={r.origin}
-                            />
+                        <Cards 
+                            key={kitty.id}
+                            breedName={kitty.name}
+                            petImage={kitty.image?.url}
+                            origin={kitty.origin}
+                        />
                     )
                 })}
             </div>

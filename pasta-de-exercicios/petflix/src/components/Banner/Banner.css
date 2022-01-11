@@ -15,11 +15,17 @@
     
 }
 
+
+
 h1 , p{
     margin: 0px 0px 0px 20px;
     display: flex;
     align-items: flex-end;
     font-weight: bold;
+}
+
+#h-banner {
+    margin:  0px 0px 0px 20px;;
 }
 
 .buton-banner {

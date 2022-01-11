@@ -54,3 +54,8 @@
 .al-self {
     align-self: flex-start;
 }
+
+.tx-dec {
+    text-decoration: none;
+    color:lightgray
+}
