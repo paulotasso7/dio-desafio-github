@@ -4,8 +4,7 @@ import Banner from "../../components/Banner/Banner";
 const Caezinhos = () => {
     return (
         <div>   
-            <NavBar/>
-            <Banner/>
+                
             <h1>Caezinhooooooows</h1>
         </div>
      

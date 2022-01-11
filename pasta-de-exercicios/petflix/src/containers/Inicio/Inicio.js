@@ -7,8 +7,6 @@ const Inicio = () => {
   
     return (
         <div>
-            <NavBar/>
-            <Banner/>
             <h1>helooooooooooooooooo</h1>
         </div>
         

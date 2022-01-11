@@ -1,7 +1,8 @@
-import './Banner.css'
+import './Banner.css';
+import { Link } from 'react-router-dom';
 
 
-const Banner = ({ setRoute }) => {
+const Banner = () => {
 
 
     return (
@@ -13,7 +14,10 @@ const Banner = ({ setRoute }) => {
                         <br/>Confira nosso conteúdo mágico
                     </p>
                     <div >
+                        <Link to='/gatinhos'>
                         <button className='buton-banner' >LEIA MAIS</button>
+                        </Link>
+                        
                         <button className='buton-banner'>PETS</button>
                     </div>     
                 </div>
