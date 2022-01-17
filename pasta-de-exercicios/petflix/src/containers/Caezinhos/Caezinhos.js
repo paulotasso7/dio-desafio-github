@@ -1,14 +1,10 @@
-import NavBar from "../../components/NavBar/NavBar";
-import Banner from "../../components/Banner/Banner";
+import DogList from "../../components/DogList/DogList";
 
 const Caezinhos = () => {
     return (
         <div>   
-                
-            <h1>Caezinhooooooows</h1>
+            <DogList/>
         </div>
-     
-        
     )
 }
 

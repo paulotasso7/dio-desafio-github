@@ -5,6 +5,7 @@
 
 .dp-flex {
     display: flex;
+   
 }
 
 .jc-sb {
@@ -57,5 +58,5 @@
 
 .tx-dec {
     text-decoration: none;
-    color:lightgray
+    
 }

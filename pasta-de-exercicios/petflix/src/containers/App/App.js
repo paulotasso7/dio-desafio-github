@@ -1,11 +1,11 @@
 // import de libs
-import { BrowserRouter as Router, Route, Switch, Routes } from "react-router-dom"; 
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; 
 
 // // import de componentes
 import './App.css';
 import NavBar from '../../components/NavBar/NavBar';
 import Banner from '../../components/Banner/Banner';
-import Grid from '../../components/Grid/Grid';
+import CatList from '../../components/CatList/CatList';
 import Footer from '../../components/Footer/Footer';
 
 // import de pages
@@ -14,30 +14,23 @@ import Gatinhos from '../Gatinhos/Gatinhos';
 import Inicio from '../Inicio/Inicio';
 
 
-
-
 function App() {
 
-
         return (
-            <div>
-                
+            <div> 
                 <Router>
-                     <NavBar />
-                     <Banner />
-                    <Routes>
-                        {/* <Route element={<NavBar/>} /> */}
-                        {/* <Route element={<Banner/>} /> */}
-                        <Route path='/' element={<Grid/>}/>
-                        <Route path='/caezinhos' element={<Caezinhos/>} />
-                        <Route path='/inicio' element={<Inicio/>} />
-                        <Route path='/gatinhos' element={<Gatinhos/>} />
-                    </Routes>
+                    <NavBar />
+                    <Banner />
+                        <Routes>
+                            <Route path='/' element={<CatList/>}/>
+                            <Route path='/caezinhos' element={<Caezinhos/>} />
+                            <Route path='/inicio' element={<Inicio/>} />
+                            <Route path='/gatinhos' element={<Gatinhos/>} />
+                        </Routes>
                     <Footer/> 
                 </Router>
             </div>
         );
-
 }
 
 export default App;

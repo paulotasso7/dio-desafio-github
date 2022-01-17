@@ -1,11 +1,9 @@
-import NavBar from "../../components/NavBar/NavBar";
-import Banner from "../../components/Banner/Banner";
+import CatList from "../../components/CatList/CatList";
 
 const Gatinhos = () => {
-
     return (
         <div>
-            <h1>Gatinhooooooows</h1>
+            <CatList/>
         </div>
     )
 }
