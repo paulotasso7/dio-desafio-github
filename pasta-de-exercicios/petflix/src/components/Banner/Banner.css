@@ -7,6 +7,7 @@
     height: 540px;
     background-image: url('https://image.freepik.com/free-photo/group-portrait-adorable-puppies_53876-64778.jpg');    
     min-width: fit-content;
+ 
 }
 
 #conteudo-banner {
@@ -15,11 +16,17 @@
     
 }
 
+
+
 h1 , p{
     margin: 0px 0px 0px 20px;
     display: flex;
     align-items: flex-end;
     font-weight: bold;
+}
+
+#h-banner {
+    margin:  0px 0px 0px 20px;;
 }
 
 .buton-banner {

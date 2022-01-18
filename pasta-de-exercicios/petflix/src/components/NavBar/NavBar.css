@@ -5,6 +5,7 @@
 
 .dp-flex {
     display: flex;
+   
 }
 
 .jc-sb {
@@ -53,4 +54,9 @@
 
 .al-self {
     align-self: flex-start;
+}
+
+.tx-dec {
+    text-decoration: none;
+    
 }
