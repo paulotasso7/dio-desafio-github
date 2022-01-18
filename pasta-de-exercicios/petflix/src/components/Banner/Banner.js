@@ -7,7 +7,7 @@ const Banner = () => {
 
     return (
         <div id='banner'>
-           <div id='conteudo-banner'>
+        <div id='conteudo-banner'>
                 <h1 id='h-banner'>PORQUE PET É ASSUNTO SÉRIO DIVERTIDO</h1>
                 <div>
                     <p>Amar bichinhos é muito importante pra nós.
@@ -17,12 +17,11 @@ const Banner = () => {
                         <Link to='/gatinhos'>
                         <button className='buton-banner' >LEIA MAIS</button>
                         </Link>
-                        
                         <button className='buton-banner'>PETS</button>
                     </div>     
                 </div>
             </div>
-        </div>
+        </div> 
     )
 }
 

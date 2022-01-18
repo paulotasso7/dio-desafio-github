@@ -38,10 +38,11 @@ const DogList = () => {
             dogs.map((dog, i) => { 
                 return (
                     <DogCard 
+                        id={dog?.id}
                         key={dog?.id}
                         breedName={dog?.name}
                         dogImage={dog?.image?.url}
-                        origin={dog?.origin}
+                        breedGroup={dog?.breed_group}
                     />
                 )
             })

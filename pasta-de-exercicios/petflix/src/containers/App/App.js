@@ -12,6 +12,7 @@ import Footer from '../../components/Footer/Footer';
 import Caezinhos from '../Caezinhos/Caezinhos.js';
 import Gatinhos from '../Gatinhos/Gatinhos';
 import Inicio from '../Inicio/Inicio';
+import Passarinhos from "../Passarinhos/Passarinhos";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                             <Route path='/caezinhos' element={<Caezinhos/>} />
                             <Route path='/inicio' element={<Inicio/>} />
                             <Route path='/gatinhos' element={<Gatinhos/>} />
+                            <Route path='/passarinhos' element={<Passarinhos/>} />
                         </Routes>
                     <Footer/> 
                 </Router>
