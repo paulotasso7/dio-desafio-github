@@ -2,33 +2,35 @@ import { useState, useEffect } from "react";
 
 
 
-
-
-
 const Passarinhos = ( ) => {
 
-    var myHeaders = new Headers();
-myHeaders.append("X-eBirdApiToken", "{{d25dv8tp3cr5}}");
+  var myHeaders = new Headers();
+    myHeaders.append("x-eBirdApiToken", "x-d25dv8tp3cr5");
 
-var requestOptions = {
-  method: 'GET',
-  headers: myHeaders,
-  redirect: 'follow'
-};
+    var requestOptions = {
+        method: 'GET',
+        headers: myHeaders,
+        mode: 'no-cors',
+        redirect: 'follow'
+    };
 
 
     const [birds, setBirds] = useState([]);
 
     useEffect(()=> {
-        fetch("https://api.ebird.org/v2/ref/region/info/CA", requestOptions)
-  .then(response => response.text())
-  .then(result => console.log(result))
-  .catch(error => console.log('error', error));;
+        fetch("https://api.ebird.org/v2/data/obs/KZ/recent?key=d25dv8tp3cr5", requestOptions)
+        .then(response => response.text())
+        .then(result => console.log(result))
+        // .then(result => setBirds(result))
+        .catch(error => console.log('error', error));
     })
 
 
     return(
-    <h1>Passaroooos</h1>
+        <div>
+    {/* {birds.map((b)=> <h1>{b?.howMany}</h1> )} */}
+    <h1>asdijs</h1>
+    </div>
     )
 };
 

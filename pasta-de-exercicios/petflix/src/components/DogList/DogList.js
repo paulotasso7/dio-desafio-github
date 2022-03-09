@@ -9,19 +9,19 @@ const DogList = () => {
 
     useEffect(() => {
        
-            setIsLoading(true)
-            fetch('https://api.thedogapi.com/v1/breeds', {
-                method:'GET' ,
-                headers: {
-                'x-api-key': 'c6621078-67a0-4dd5-9acf-875e5a2e2fd1'
-                } 
-            })
-            .then(res => res.json())
-            .then(data => {
-                setDogs(data)
-                console.log(data)
-                setIsLoading(false)
-            })
+        setIsLoading(true)
+        fetch('https://api.thedogapi.com/v1/breeds', {
+            method:'GET' ,
+            headers: {
+            'x-api-key': 'c6621078-67a0-4dd5-9acf-875e5a2e2fd1'
+            } 
+        })
+        .then(res => res.json())
+        .then(data => {
+            setDogs(data)
+            console.log(data)
+            setIsLoading(false)
+        })
 
     },[]);
 

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (  
-        <nav className="bgc-black dp-flex  jc-sb pad ai-center">
+        <nav className="bgc-black dp-flex  jc-sb pad ai-center p-sticky-top">
             <div className='dp-flex ai-center jc-center' >
                 <img className='al-self' src='https://cdn.icon-icons.com/icons2/2070/PNG/512/parrot_icon_126079.png' alt='logo-bird' height='40px' width='40px'/>                
                 <Link className='ff-bebas color-red fweigth fsize tx-dec' to='/'>
